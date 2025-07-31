@@ -89,7 +89,7 @@ ThemeData createZenitTheme({
   final iconTheme = IconThemeData(color: foregroundColor);
 
   // Card Theme
-  const cardTheme = CardTheme(
+  const cardThemeData cardTheme = cardThemeData(
     clipBehavior: Clip.antiAlias,
     elevation: 0,
     shape: RoundedRectangleBorder(
@@ -171,7 +171,7 @@ ThemeData createZenitTheme({
       primaryColor: primaryColor,
       scaffoldBackgroundColor: backgroundColor,
       iconTheme: iconTheme,
-      cardThemeData: cardTheme,
+      cardTheme: cardTheme,
       floatingActionButtonTheme: floatingActionButtonTheme,
       pageTransitionsTheme: pageTransitionsTheme,
       tooltipTheme: tooltipTheme,
