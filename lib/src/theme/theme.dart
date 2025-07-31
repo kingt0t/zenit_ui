@@ -171,7 +171,7 @@ ThemeData createZenitTheme({
       primaryColor: primaryColor,
       scaffoldBackgroundColor: backgroundColor,
       iconTheme: iconTheme,
-      cardTheme: cardTheme,
+      cardThemeData: cardTheme,
       floatingActionButtonTheme: floatingActionButtonTheme,
       pageTransitionsTheme: pageTransitionsTheme,
       tooltipTheme: tooltipTheme,
